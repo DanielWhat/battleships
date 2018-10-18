@@ -28,7 +28,7 @@ void moveRowsDown(uint8_t intMatrix[], int maxRowNum, int numCols, int numRows, 
 /* Moves the rows of an int matrix down such that row i becomes row i+1. 
  * If i+1 is greater than to numCols-1, then the rows loop (i.e the 
  * numCols-1-th row becomes the 0th row). maxRowNum is the highest 
- * number that can be displayed in a matrix column@ (i.e if the matrix 
+ * number that can be displayed in a matrix column (i.e if the matrix 
  * has 3 rows then the highest number that can be displayed is 2^3 - 1).*/
 
 
